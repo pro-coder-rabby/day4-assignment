@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Create a new account</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="create-account">
+      <div class="section-title">
+        <h1>Sign up</h1>
+        <p>It's quick and easy.</p>
+      </div>
+      <form action="#">
+        <div class="input-group col-2">
+          <input type="text" name="fname" id="" placeholder="Enter your first name" />
+          <input type="text" name="lname" id="" placeholder="Enter your last name" />
+        </div>
+
+        <div class="input-group">
+          <input type="text" name="email" id="" placeholder="Mobile number or email address" />
+          <input type="password" name="password" id="" placeholder="New password" />
+        </div>
+
+        <div class="input-group">
+          <label for="">Date of birth</label>
+          <div class="col-3">
+            <div class="date">
+              <select name="date" id="">
+                <option value="">Day</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+              </select>
+            </div>
+            <div class="month">
+              <select name="month" id="">
+                <option value="">Month</option>
+                <option value="jan">January</option>
+                <option value="feb">february</option>
+                <option value="march">march</option>
+                <option value="april">april</option>
+                <option value="may">may</option>
+              </select>
+            </div>
+            <div class="year">
+              <select name="year" id="">
+                <option value="">Year</option>
+                <option value="2002">2002</option>
+                <option value="2003">2003</option>
+                <option value="2004">2004</option>
+                <option value="2006">2006</option>
+                <option value="2007">2007</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <div class="input-group">
+          <label for="">Gender</label>
+          <div class="select-gender col-3">
+            <label class="gender" for="male">Male <input type="radio" name="gender" id="male" value="male" /></label>
+            <label class="gender" for="female">Female <input type="radio" name="gender" id="female" value="female" /></label>
+            <label class="gender" for="other">Other <input type="radio" name="gender" id="other" value="other" /></label>
+          </div>
+        </div>
+        <div class="trams-condition">
+          <p>People who use our service may have uploaded your contact information to Facebook. <a href="#">Learn more.</a></p>
+          <p>
+            By clicking Sign Up, you agree to our Terms, <a href="#">Data Policy</a> and <a href="#">Cookie Policy.</a> You may receive SMS notifications from
+            us and can opt out at any time.
+          </p>
+        </div>
+        <div class="signup-btn">
+          <button>Sign Up</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

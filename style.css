@@ -1,0 +1,119 @@
+/* basic utility setup start*/
+body {
+  background-color: #f1f1f1;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+/* basic utility setup end*/
+
+/* main form design start  */
+.create-account {
+  width: 500px;
+  background: #fff;
+  margin: 100px auto;
+  padding: 40px 20px;
+  border-radius: 4px;
+  box-shadow: 0 0 30px #d6d3d362;
+}
+
+.create-account .section-title h1 {
+  margin-bottom: 5px;
+  font-size: 40px;
+}
+.create-account .section-title p {
+  color: rgba(65, 64, 64, 0.867);
+  margin-bottom: 10px;
+}
+/* basic input design */
+.create-account .input-group input {
+  width: 100%;
+  padding: 13px;
+  border: 1px solid #ddd;
+  margin-top: 10px;
+  border-radius: 3px;
+  outline: 0;
+}
+.create-account .col-2 {
+  display: flex;
+  gap: 15px;
+}
+
+.create-account .input-group .col-3 {
+  display: flex;
+  gap: 15px;
+}
+.create-account .col-3 > div {
+  width: 33.33%;
+}
+.create-account .input-group select {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  width: 100%;
+  outline: unset;
+}
+.create-account .input-group label {
+  display: block;
+  margin: 15px 0 5px 0;
+  color: #333;
+}
+/* gender selection design */
+.create-account .input-group .gender {
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 3px;
+  display: block;
+  width: 33.33%;
+}
+.create-account .input-group .gender {
+  display: inline-block;
+  margin: 0;
+}
+.create-account .input-group input[type="radio"] {
+  display: inline-block;
+  width: auto;
+  margin: 0;
+  position: relative;
+  top: 2px;
+}
+/* trams and condition text design */
+.create-account .trams-condition {
+  margin: 15px 0 20px 0;
+}
+.create-account p {
+  color: #444;
+  font-size: 14px;
+  line-height: 19px;
+  margin-bottom: 10px;
+}
+.create-account a {
+  display: inline-block;
+  text-decoration: none;
+  color: #0084f0;
+  transition: 0.4s;
+}
+.create-account a:hover {
+  text-decoration: underline;
+}
+/* sign up button design */
+.create-account .signup-btn button {
+  background: #00a400;
+  border: unset;
+  padding: 10px 30px;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 3px;
+  width: 50%;
+  display: block;
+  margin: auto;
+  transition: 0.4s;
+  cursor: pointer;
+}
+.create-account .signup-btn button:hover {
+  opacity: 0.9;
+}
